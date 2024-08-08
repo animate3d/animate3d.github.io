@@ -153,6 +153,24 @@ p {
     height: auto; /* 确保视频完整展示 */
     display: block; /* 确保视频块级元素 */
 }
+
+.video-mesh-container {
+    position: relative;
+    width: 100%; /* 宽度根据父元素调整，实现自适应 */
+    padding-top: 50%; /* 16:9宽高比的padding-top值 */
+    overflow: hidden;
+}
+
+/* 视频实际尺寸，会被container缩放以保持宽高比 */
+.video-mesh-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 保持视频宽高比并填充容器 */
+}
+
 .controls {
     position: absolute;
     top: 50%; /* 将控件移动到视频中间 */
