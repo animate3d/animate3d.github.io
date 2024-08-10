@@ -42,20 +42,29 @@
             </div>
         </section>
 
-        <!-- Section 6: Animating Generated 3D Mesh -->
+        <!-- Section 3: Animating 3D Mesh -->
         <section id="animate-generated">
-            <h2>Animate Generated 3D Mesh</h2>
+            <h2>Animate Reconstructed 3D Model</h2>
             <div class="content-center">
-                <p>We animate <span class="highlight"> 4 mesh assets</span>. 
-                    Meshes are generated using commerical 3D generation tools, with <span class="highlight">PBR material</span> provided. (<span class="highlight"><a href="https://hyperhuman.deemos.com/rodin">Rodin Gen-1</a></span>, <span class="highlight"><a href="https://www.meshy.ai/">Meshy</a></span>, <span class="highlight"><a href="https://www.tripo3d.ai/">Tripo3D</a></span>). 
-                    When you hover your mouse over the video, a <span class="highlight">full screen button</span> will appear in the bottom right corner. 
-                    Click it to watch the video in 2048&times;1024 resolution.</p>
+                <p>We animate <span class="highlight"> 6 mesh assets</span>, each with <span class="highlight">multiple animations</span>. You can <span class="highlight">switch between different animations by clicking the thumbnails below the video</span>. 
+                    Click the thumbnail above the video to see the input 3D model. When you hover your mouse over the video, a <span class="highlight">full screen button</span> button will appear in the bottom right corner. 
+                    Click it to watch the video in 2048$times1024; resolution.</p>
             </div>
-            <div class="video-mesh-container">
-                <video controls autoplay muted loop>
-                    <source src="videos/mesh/mesh_video_tmp.mp4" type="video/mp4">
-                    您的浏览器不支持视频播放。
-                </video>
+            <div class="video-container">
+                <img id="reference-thumbnail-group4" class="thumbnail" onclick="playReference('group4')">
+                <div class="video-wrapper-other">
+                    <div class="controls">
+                        <div class="button left" onclick="switchGroup(-1, 'group4')"></div>
+                        <div class="button right" onclick="switchGroup(1, 'group4')"></div>
+                    </div>
+                    <video id="main-video-group4" autoplay muted controls preload="auto" loop>
+                        <source id="main-video-source-group4" src="" type="video/mp4">
+                        您的浏览器不支持播放此视频。
+                    </video>
+                </div>
+                <div class="video-thumbnails" id="thumbnails-group4">
+                    <!-- 缩略图会动态添加到这里 -->
+                </div>
             </div>
         </section>
 

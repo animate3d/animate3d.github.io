@@ -488,13 +488,154 @@ const videoGroups = {
                 { img: 'images/visualization_ours/group3/object_9/animation_0.png', video: 'videos/visualization_ours/group3/object_9/animation_0.mp4' }
             ]
         },
+    ],
+        'group3': [
+        {
+            reference: 'videos/visualization_static/group3/object_0.mp4',
+            referenceThumbnail: 'images/visualization_static/group3/object_0.png',
+            animations: [
+                { img: 'images/visualization_ours/group3/object_0/animation_0.png', video: 'videos/visualization_ours/group3/object_0/animation_0.mp4' },
+                { img: 'images/visualization_ours/group3/object_0/animation_1.png', video: 'videos/visualization_ours/group3/object_0/animation_1.mp4' },
+                { img: 'images/visualization_ours/group3/object_0/animation_2.png', video: 'videos/visualization_ours/group3/object_0/animation_2.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group3/object_1.mp4',
+            referenceThumbnail: 'images/visualization_static/group3/object_1.png',
+            animations: [
+                { img: 'images/visualization_ours/group3/object_1/animation_0.png', video: 'videos/visualization_ours/group3/object_1/animation_0.mp4' },
+                { img: 'images/visualization_ours/group3/object_1/animation_1.png', video: 'videos/visualization_ours/group3/object_1/animation_1.mp4' },
+                { img: 'images/visualization_ours/group3/object_1/animation_2.png', video: 'videos/visualization_ours/group3/object_1/animation_2.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group3/object_2.mp4',
+            referenceThumbnail: 'images/visualization_static/group3/object_2.png',
+            animations: [
+                { img: 'images/visualization_ours/group3/object_2/animation_0.png', video: 'videos/visualization_ours/group3/object_2/animation_0.mp4' },
+                { img: 'images/visualization_ours/group3/object_2/animation_1.png', video: 'videos/visualization_ours/group3/object_2/animation_1.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group3/object_3.mp4',
+            referenceThumbnail: 'images/visualization_static/group3/object_3.png',
+            animations: [
+                { img: 'images/visualization_ours/group3/object_3/animation_0.png', video: 'videos/visualization_ours/group3/object_3/animation_0.mp4' },
+                { img: 'images/visualization_ours/group3/object_3/animation_1.png', video: 'videos/visualization_ours/group3/object_3/animation_1.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group3/object_4.mp4',
+            referenceThumbnail: 'images/visualization_static/group3/object_4.png',
+            animations: [
+                { img: 'images/visualization_ours/group3/object_4/animation_0.png', video: 'videos/visualization_ours/group3/object_4/animation_0.mp4' },
+                { img: 'images/visualization_ours/group3/object_4/animation_1.png', video: 'videos/visualization_ours/group3/object_4/animation_1.mp4' },
+                { img: 'images/visualization_ours/group3/object_4/animation_2.png', video: 'videos/visualization_ours/group3/object_4/animation_2.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group3/object_5.mp4',
+            referenceThumbnail: 'images/visualization_static/group3/object_5.png',
+            animations: [
+                { img: 'images/visualization_ours/group3/object_5/animation_0.png', video: 'videos/visualization_ours/group3/object_5/animation_0.mp4' },
+                { img: 'images/visualization_ours/group3/object_5/animation_1.png', video: 'videos/visualization_ours/group3/object_5/animation_1.mp4' },
+                { img: 'images/visualization_ours/group3/object_5/animation_2.png', video: 'videos/visualization_ours/group3/object_5/animation_2.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group3/object_6.mp4',
+            referenceThumbnail: 'images/visualization_static/group3/object_6.png',
+            animations: [
+                { img: 'images/visualization_ours/group3/object_6/animation_0.png', video: 'videos/visualization_ours/group3/object_6/animation_0.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group3/object_7.mp4',
+            referenceThumbnail: 'images/visualization_static/group3/object_7.png',
+            animations: [
+                { img: 'images/visualization_ours/group3/object_7/animation_0.png', video: 'videos/visualization_ours/group3/object_7/animation_0.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group3/object_8.mp4',
+            referenceThumbnail: 'images/visualization_static/group3/object_8.png',
+            animations: [
+                { img: 'images/visualization_ours/group3/object_8/animation_0.png', video: 'videos/visualization_ours/group3/object_8/animation_0.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group3/object_9.mp4',
+            referenceThumbnail: 'images/visualization_static/group3/object_9.png',
+            animations: [
+                { img: 'images/visualization_ours/group3/object_9/animation_0.png', video: 'videos/visualization_ours/group3/object_9/animation_0.mp4' }
+            ]
+        },
+    ],
+    'group4': [
+        {
+            reference: 'videos/visualization_static/group4/object_0.mp4',
+            referenceThumbnail: 'images/visualization_static/group4/object_0.png',
+            animations: [
+                { img: 'images/visualization_ours/group4/object_0/animation_0.png', video: 'videos/visualization_ours/group4/object_0/animation_0.mp4' },
+                { img: 'images/visualization_ours/group4/object_0/animation_1.png', video: 'videos/visualization_ours/group4/object_0/animation_1.mp4' },
+                { img: 'images/visualization_ours/group4/object_0/animation_2.png', video: 'videos/visualization_ours/group4/object_0/animation_2.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group4/object_1.mp4',
+            referenceThumbnail: 'images/visualization_static/group4/object_1.png',
+            animations: [
+                { img: 'images/visualization_ours/group4/object_1/animation_0.png', video: 'videos/visualization_ours/group4/object_1/animation_0.mp4' },
+                { img: 'images/visualization_ours/group4/object_1/animation_1.png', video: 'videos/visualization_ours/group4/object_1/animation_1.mp4' },
+                { img: 'images/visualization_ours/group4/object_1/animation_2.png', video: 'videos/visualization_ours/group4/object_1/animation_2.mp4' },
+                { img: 'images/visualization_ours/group4/object_1/animation_3.png', video: 'videos/visualization_ours/group4/object_1/animation_3.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group4/object_2.mp4',
+            referenceThumbnail: 'images/visualization_static/group4/object_2.png',
+            animations: [
+                { img: 'images/visualization_ours/group4/object_2/animation_0.png', video: 'videos/visualization_ours/group4/object_2/animation_0.mp4' },
+                { img: 'images/visualization_ours/group4/object_2/animation_1.png', video: 'videos/visualization_ours/group4/object_2/animation_1.mp4' },
+                { img: 'images/visualization_ours/group4/object_2/animation_2.png', video: 'videos/visualization_ours/group4/object_2/animation_2.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group4/object_3.mp4',
+            referenceThumbnail: 'images/visualization_static/group4/object_3.png',
+            animations: [
+                { img: 'images/visualization_ours/group4/object_3/animation_0.png', video: 'videos/visualization_ours/group4/object_3/animation_0.mp4' },
+                { img: 'images/visualization_ours/group4/object_3/animation_1.png', video: 'videos/visualization_ours/group4/object_3/animation_1.mp4' },
+                { img: 'images/visualization_ours/group4/object_3/animation_2.png', video: 'videos/visualization_ours/group4/object_3/animation_2.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group4/object_4.mp4',
+            referenceThumbnail: 'images/visualization_static/group4/object_4.png',
+            animations: [
+                { img: 'images/visualization_ours/group4/object_4/animation_0.png', video: 'videos/visualization_ours/group4/object_4/animation_0.mp4' },
+                { img: 'images/visualization_ours/group4/object_4/animation_1.png', video: 'videos/visualization_ours/group4/object_4/animation_1.mp4' },
+                { img: 'images/visualization_ours/group4/object_4/animation_2.png', video: 'videos/visualization_ours/group4/object_4/animation_2.mp4' },
+                { img: 'images/visualization_ours/group4/object_4/animation_3.png', video: 'videos/visualization_ours/group4/object_4/animation_3.mp4' },
+                { img: 'images/visualization_ours/group4/object_4/animation_4.png', video: 'videos/visualization_ours/group4/object_4/animation_4.mp4' }
+            ]
+        },
+        {
+            reference: 'videos/visualization_static/group4/object_5.mp4',
+            referenceThumbnail: 'images/visualization_static/group4/object_5.png',
+            animations: [
+                { img: 'images/visualization_ours/group4/object_5/animation_0.png', video: 'videos/visualization_ours/group4/object_5/animation_0.mp4' },
+                { img: 'images/visualization_ours/group4/object_5/animation_1.png', video: 'videos/visualization_ours/group4/object_5/animation_1.mp4' },
+            ]
+        },
     ]
 };
 
 let currentGroupIndices = {
     'group1': 0,
     'group2': 0,
-    'group3': 0
+    'group3': 0,
+    'group4': 0
 };
 
 const otherVideos = [
@@ -643,6 +784,7 @@ window.onload = () => {
             loadGroup('group1');
             loadGroup('group2');
             loadGroup('group3');
+            loadGroup('group4');
             loadOtherVideo();
         });
 };
