@@ -55,6 +55,13 @@ p {
     margin: 5px 0;
 }
 
+.accept {
+    font-size: 1.6rem;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px 0;
+}
+
 /* 链接文本的样式 */
 .links {
     text-align: center;
